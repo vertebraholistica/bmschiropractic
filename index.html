@@ -8,7 +8,7 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #003c2e, #009578); /* Original green gradient */
+      background: #001a12;
       color: #f0f0f0;
       display: flex;
       flex-direction: column;
@@ -17,27 +17,28 @@
       text-align: center;
       padding: 20px;
       position: relative;
-      min-height: 100vh;
     }
 
     img {
       max-width: 120px;
       height: auto;
       border-radius: 50% / 40%;
-      border: 3px solid transparent;
+      border: 3px solid #001a12;
+      background-color: transparent;
       object-fit: cover;
       position: fixed;
       bottom: 20px;
       right: 20px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
       z-index: 1000;
     }
 
     h1 {
-      font-size: 2.8em;
+      font-size: 3.2em;
       margin: 0.2em 0 0.4em 0;
-      letter-spacing: 3px;
+      letter-spacing: 4px;
       word-spacing: 8px;
-      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.8);
     }
 
     h2 {
@@ -45,7 +46,7 @@
       font-size: 1.5em;
       margin-top: 0;
       margin-bottom: 1em;
-      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
     }
 
     p {
@@ -65,10 +66,10 @@
 
     .button {
       text-decoration: none;
-      color: #003c2e;
+      color: #001a12;
       background-color: #f0f0f0;
       padding: 0.8em 1.5em;
-      border-radius: 8px;
+      border-radius: 5px;
       font-size: 1em;
       transition: background-color 0.3s ease;
       flex: 1 1 150px;
@@ -76,25 +77,25 @@
     }
 
     .button:hover {
-      background-color: #d3f9d8;
+      background-color: #ccc;
     }
 
     footer {
       margin-top: 3em;
       font-size: 0.9em;
-      color: #cfcfcf;
+      color: #aaa;
     }
 
-    /* Responsive for phones */
+    /* Responsive fixes for phones */
     @media (max-width: 480px) {
       img {
-        max-width: 80px;
+        max-width: 90px;
         bottom: 10px;
         right: 10px;
       }
 
       h1 {
-        font-size: 2em;
+        font-size: 2.2em;
         letter-spacing: 2px;
         word-spacing: 4px;
         margin: 0.1em 0 0.3em 0;
@@ -125,21 +126,21 @@
 
   <p>Welcome to your chiropractic sanctuary for elevating the human experience. Align your spine, awaken your spirit, and wear your truth. Join the Elevated Beings movement—where healing meets style.</p>
 
-  <u>Información de nosotros:</u>
-  <div>
-    <a>Anuncios</a> – fotos con los jackets aquí
-  </div>
+  <u>información de nosotros:</u>
+  <a> anuncios </a>
+  fotos con los jackets aquí
 
   <div class="button-container">
     <a href="https://yourstorelink.com" class="button">Buy Jackets o lo que sea Here</a>
     <a href="mailto:youremail@example.com" class="button">Contact Us</a>
   </div>
 
-  <img src="987F326B-A322-4E0C-8432-0BC0073715B3.png" alt="Human Energy Flow Logo" />
-
   <footer>
     &copy; 2025 Elevated Beings Chiropractic
   </footer>
+
+  <!-- Imagen en esquina inferior derecha -->
+  <img src="987F326B-A322-4E0C-8432-0BC0073715B3.png" alt="Human Energy Flow" />
 
 </body>
 </html>
