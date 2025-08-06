@@ -46,4 +46,101 @@
       font-size: 1.5em;
       margin-top: 0;
       margin-bottom: 1em;
-      text-shadow: 1px
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+    }
+
+    p {
+      max-width: 700px;
+      font-size: 1.2em;
+      margin: 1em auto;
+      line-height: 1.6em;
+    }
+
+    .button-container {
+      margin-top: 2em;
+      display: flex;
+      gap: 1em;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .button {
+      text-decoration: none;
+      color: #001a12;
+      background-color: #f0f0f0;
+      padding: 0.8em 1.5em;
+      border-radius: 5px;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+      flex: 1 1 150px;
+      text-align: center;
+    }
+
+    .button:hover {
+      background-color: #ccc;
+    }
+
+    footer {
+      margin-top: 3em;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    /* Responsive fixes for phones */
+    @media (max-width: 480px) {
+      img {
+        max-width: 90px;
+        bottom: 10px;
+        right: 10px;
+      }
+
+      h1 {
+        font-size: 2.2em;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        margin: 0.1em 0 0.3em 0;
+      }
+
+      p {
+        font-size: 1em;
+        margin: 1em 10px;
+      }
+
+      .button-container {
+        flex-direction: column;
+        gap: 1.2em;
+        margin-top: 1.5em;
+      }
+
+      .button {
+        flex: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>BODY • MIND • SPIRIT</h1>
+  <h2>Be My Self Chiropractic</h2>
+
+  <p>Welcome to your chiropractic sanctuary for elevating the human experience. Align your spine, awaken your spirit, and wear your truth. Join the Elevated Beings movement—where healing meets style.</p>
+
+  <u>información de nosotros:</u>
+  <a> anuncios </a>
+  fotos con los jackets aquí
+
+  <div class="button-container">
+    <a href="https://yourstorelink.com" class="button">Buy Jackets o lo que sea Here</a>
+    <a href="mailto:youremail@example.com" class="button">Contact Us</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Elevated Beings Chiropractic
+  </footer>
+
+  <!-- Imagen en esquina inferior derecha -->
+  <img src="987F326B-A322-4E0C-8432-0BC0073715B3.png" alt="Human Energy Flow" />
+
+</body>
+</html>
