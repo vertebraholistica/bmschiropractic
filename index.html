@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Elevated Beings Chiropractic</title>
+  <title>Be My Self Chiropractic</title>
   <style>
     body {
       margin: 0;
@@ -16,19 +16,28 @@
       justify-content: center;
       text-align: center;
       padding: 20px;
+      position: relative; /* so fixed image doesn't affect layout */
     }
 
     img {
-      max-width: 100%;
+      max-width: 150px;
       height: auto;
-      margin-top: 20px;
-      border: 3px solid #f0f0f0;
+      border-radius: 50% / 40%;
+      border: 3px solid #001a12;
+      background-color: transparent;
+      object-fit: cover;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.3);
+      z-index: 1000; /* on top */
     }
 
     h1 {
       font-size: 3.5em;
       margin: 0.4em 0 0.2em 0;
-      letter-spacing: 2px;
+      letter-spacing: 4px;
+      word-spacing: 10px;
     }
 
     h2 {
@@ -74,7 +83,9 @@
 <body>
 
   <h1>BODY • MIND • SPIRIT</h1>
-  <h2>Elevated Beings Chiropractic</h2>
+  <h2>Be My Self Chiropractic</h2>
+
+  <img src="987F326B-A322-4E0C-8432-0BC0073715B3.png" alt="Human Energy Flow" />
 
   <p>Welcome to your chiropractic sanctuary for elevating the human experience. Align your spine, awaken your spirit, and wear your truth. Join the Elevated Beings movement—where healing meets style.</p>
 
@@ -82,11 +93,9 @@
     <a href="https://yourstorelink.com" class="button">Buy Jackets Here</a>
     <a href="mailto:youremail@example.com" class="button">Contact Us</a>
   </div>
-  <!-- Image here -->
-  <img src="987F326B-A322-4E0C-8432-0BC0073715B3.png" alt="Human Energy Flow" style="max-width: 250px; height: auto;" />
 
   <footer>
-    &copy; 2025 Body Mind Spirit Chiropractic
+    &copy; 2025 Elevated Beings Chiropractic
   </footer>
 
 </body>
